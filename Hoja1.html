@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/02f83f0420.js" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</head>
+<body> 
+    <div class="barra-superior" id=1>
+        <header>
+            <nav class="navbar">
+                <div class="logo">
+                    <h2 style= "display:inline;" class="logoG" id="logo1">G</h2><h2 style= "display:inline;"class="logoM" id="logo2">M</h2>
+                </div>
+                <ul class="menu" id="menu">
+                    <li><a class= "menu1" href="#">Inicio</a></li>
+                    <li><a class= "menu1" href="#sobremi">Sobre mi</a></li>
+                    <li><a class= "menu1" href="#portfoliolink">Portfolio</a></li>
+                    <li><a class= "menu1" href="#contactamelink">Contacto</a></li>
+                </ul>
+            
+
+                </ul>
+
+            </nav>
+        </header>
+
+    <main class="main">
+            <div class="info personal">
+               <h1>Guillermo <span id="apellido">Milano </span ></h1>
+                <div class="acordeonOculto">
+                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti fugiat quia provident, cupiditate iure cumque nam amet doloremque nobis dolores, eius repellendus esse laborum accusamus atque sint aut, voluptas tenetur.</p>
+                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, aliquam. Et sunt dolor perferendis earum maxime labore officia fugiat enim? Harum ducimus dolore, architecto sunt ipsam amet facilis eius doloribus!</p>
+                </div>
+                <!-- <a download=" " href="#"> -->
+                   <button class="boton" id="botonVerMas" onclick="acordeon()">Ver mas</button>
+                   
+                   
+                <!-- </a> -->
+            </div>
+      <div class="divOrganizador">
+         <img class= img src="imagen.png" alt="imagen" id="borderColor">
+         <!-- <br> --> 
+         <div class= "div1">
+         <button class="boton1" onclick="tema1()">Cambiar color</button>
+         <!-- <br> -->
+         <button class="boton4" onclick="tema2()">Cambiar color</button>
+         <!-- <br> -->
+         <button class="boton3" onclick="tema3()">Cambiar color</button>
+        </div>   
+    </div>   
+    </main>   
+</div>
+
+<div class="sobre-mi" id="sobremi">
+    <img src="imagen.png" alt="imagen">
+
+    <div class="sobre-mi-info" id="sobremi">
+        <h2>Sobre mi</h2>
+        <div class="divider"></div>
+    <div class="acordeonOculto2">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum velit numquam fuga adipisci explicabo error enim ipsa neque soluta perferendis beatae quo necessitatibus officia, praesentium amet a! Impedit, pariatur. Id?</p> <br>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab, neque obcaecati. Quae beatae quis deserunt obcaecati perferendis, voluptates vero? Soluta ut perferendis consequatur neque eveniet mollitia nisi reprehenderit cum animi.</p>
+    </div>
+        <button class="boton2"onclick="acordeon2()" >Leer mas</button>
+    </div>
+</div>
+ 
+<div class="portfolio">
+    <div class="portfolio-titulo" id="portfoliolink">
+        <h2 id="miportfolio">Mi portfolio</h2>
+        <div class="divider"></div>        
+    </div>
+
+    <div class="contenido">
+        <div class="carta">
+            <div class="carta_img">
+            </div>
+            <div class="carta_titulo">
+                <h2 id="notificar">Notificar-Incidencia</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi dignissimos dolores autem, ipsa odio facere, accusantium cupiditate commodi voluptatem, consequatur facilis reiciendis culpa beatae consectetur! Incidunt impedit quibusdam atque repellat.</p>
+                </div>
+                <div class="carta-links-proyectos">
+                    <a href="https://github.com/Fawkless/Notificar-Incidencia">
+                        <i class="fa-brands fa-github" id="botGit"></i>
+                    </a>
+                    <a href="https://fawkless.github.io/Notificar-Incidencia/notificar-incidencia">
+                        <i class="fa-solid fa-globe" id="botNet"></i>
+                    </a>
+                    <a href="">
+                        <i class="fa-solid fa-code" id="botFlecha"></i>
+                    </a>
+
+                </div>
+                <button class="Detalles-proyecto" id="detalles">Detalles
+                    <a href=""></a>
+                </button>
+        </div>
+        <div class="carta">
+            <div class="carta_img">
+            </div>
+            <div class="carta_titulo">
+                <h2 id="htmlYCss">HTML-Y-CSS-Basico</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi dignissimos dolores autem, ipsa odio facere, accusantium cupiditate commodi voluptatem, consequatur facilis reiciendis culpa beatae consectetur! Incidunt impedit quibusdam atque repellat.</p>
+                </div>
+                <div class="carta-links-proyectos">
+                    <a href="https://github.com/Fawkless/HTML-Y-CSS-Basico">
+                        <i class="fa-brands fa-github" id="botGit2"></i>
+                    </a>
+                    <a href="https://fawkless.github.io/HTML-Y-CSS-Basico/Queen">
+                        <i class="fa-solid fa-globe" id="botNet2"></i>
+                    </a>
+                    <a href="">
+                        <i class="fa-solid fa-code" id="botFlecha2"></i>
+                    </a>
+
+                </div>
+                <button class="Detalles-proyecto" id="detalles2">Detalles 
+                    <a href="" ></a>
+                </button>
+        
+            
+        </div>
+    </div>
+</div>
+
+<div class="contacto">
+    <div class="contacto-heading" id="contactamelink">
+        <h2 id="contactame">Contactame</h2>
+            <div class="divider"></div>
+    </div>
+    
+    <div class="contacto-main">
+        <img src="imagen7.png" alt="">
+            <div class="formulario-de-contacto">
+                <h4 id="enviameUnMensaje">Enviame un mensaje</h4>
+                <form class="formulario">
+                    <input type="text" placeholder="Nombre" id="nombre">
+                    <input type="email" placeholder="Email"id=mail>
+                    <textarea placeholder="Deja aqui tu mensaje"id=dejaMensaje></textarea>
+                    <button class="submit" Id="enviar">Enviar</button>
+                        
+                    
+                </form>
+            </div>
+    </div>
+</div>
+</body>
+</html>
